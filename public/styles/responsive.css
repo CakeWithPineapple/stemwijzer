@@ -1,0 +1,44 @@
+/* responsive.css */
+@media (min-width: 1250px) {
+  body,
+  html {
+    height: 100%;
+  }
+
+  body {
+    /* LET OP: "display: flex;" is gedefinieerd in globals.css */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .party-positions-container {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 250px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center; /* Plaats de taal-selector in het midden */
+  }
+
+  .language-selector {
+    flex-direction: column; /* Maak de selector verticaal */
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .language-selector select {
+    width: 100%; /* Laat hem de hele breedte gebruiken */
+  }
+}

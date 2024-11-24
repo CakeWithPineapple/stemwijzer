@@ -1,0 +1,44 @@
+.navigation {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px; /* Consistente spacing */
+}
+
+.nav-button {
+  flex: 1;
+  max-width: 150px; /* Beperkt de breedte van knoppen */
+  padding: clamp(10px, 2vw, 16px);
+  font-size: clamp(14px, 1.8vw, 18px);
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #26c6da, #00acc1);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+  background: linear-gradient(135deg, #00acc1, #007c91);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-button:focus {
+  outline: 3px solid #007c91;
+  outline-offset: 2px;
+}
+
+.navigation {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center; /* Centreer de navigatieknoppen */
+  gap: 15px; /* Ruimte tussen de knoppen */
+}
+
+.nav-button {
+  flex: 0 1 auto; /* Knoppen schalen niet volledig uit */
+  max-width: 150px; /* Optioneel: Zorg dat de knoppen consistent breed blijven */
+  padding: 10px 15px; /* Maak ze net iets compacter */
+  text-align: center; /* Zorg dat de tekst altijd netjes staat */
+}

@@ -1,0 +1,4 @@
+/target
+/.git
+/public/backup
+/public/main.backup.rs

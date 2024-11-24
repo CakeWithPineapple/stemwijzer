@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hikeland Stemwijzer - Vragen</title>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/progress-bar.css" />
+    <link rel="stylesheet" href="styles/question.css" />
+    <link rel="stylesheet" href="styles/options.css" />
+    <link rel="stylesheet" href="styles/importance.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/tooltip.css" />
+    <link rel="stylesheet" href="styles/party-positions.css" />
+    <link rel="stylesheet" href="styles/language-selector.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/additional.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="language-selector">
+        <label for="languageSelector">Taal: </label>
+        <div class="dropdown-wrapper">
+          <select id="languageSelector" aria-labelledby="languageSelector">
+            <option value="nl">Nederlands</option>
+            <option value="uk">Українська</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="en-US">English (US)</option>
+            <option value="en-UK">English (UK)</option>
+          </select>
+          <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+            <path d="M7 10l5 5 5-5z" fill="#888"></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1 id="title">Hikeland Stemwijzer</h1>
+
+      <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressBar"></div>
+      </div>
+      <div id="progressText" class="progress-text"></div>
+
+      <div class="question" id="questionText">
+        <p>Vragen worden geladen...</p>
+      </div>
+
+      <div class="importance" id="importancePrompt" style="display: block">
+        Geef aan hoe belangrijk deze vraag voor je is:
+        <div class="importance-buttons">
+          <button class="importance-button" data-importance="1" aria-label="Normaal belangrijk">Normaal</button>
+          <button class="importance-button" data-importance="2" aria-label="Best wel belangrijk">
+            Belangrijk
+          </button>
+          <button class="importance-button" data-importance="3" aria-label="Heel erg belangrijk">
+            Zeer belangrijk
+          </button>
+        </div>
+      </div>
+
+      <div class="options">
+        <button class="option" data-answer="eens">Eens</button>
+        <button class="option" data-answer="neutraal">Neutraal</button>
+        <button class="option" data-answer="oneens">Oneens</button>
+      </div>
+
+      <div class="navigation">
+        <button class="nav-button" id="prevButton" aria-label="Vorige vraag">&lt;</button>
+        <button class="nav-button" id="nextButton" aria-label="Volgende vraag">&gt;</button>
+      </div>
+    </div>
+
+    <div class="party-positions-container">
+      <div class="party-positions">
+        <h2>Wat vinden de partijen</h2>
+        <div class="party-opinion">
+          <div id="eens-parties">
+            <strong>Eens:</strong>
+            <div class="party-icons"></div>
+          </div>
+          <div id="oneens-parties">
+            <strong>Oneens:</strong>
+            <div class="party-icons"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

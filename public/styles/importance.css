@@ -1,0 +1,42 @@
+.importance {
+  margin-top: clamp(20px, 5vw, 40px);
+  font-weight: 600;
+  color: #1e88e5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.importance-buttons {
+  display: flex;
+  justify-content: center;
+  gap: clamp(8px, 2vw, 16px);
+  margin-top: clamp(8px, 2vw, 20px);
+}
+
+.importance-button {
+  padding: clamp(8px, 1.5vw, 12px) clamp(12px, 2.5vw, 20px);
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #e0f7fa;
+  color: #00796b;
+  transition: background-color 0.3s ease, transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+}
+
+.importance-button:hover {
+  background-color: #b2ebf2;
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.importance-button.active {
+  background: linear-gradient(135deg, #26c6da, #00acc1); /* Mooie gradient */
+  color: #fff;
+  border: 2px solid #00796b;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Knop lijkt meer aanwezig */
+  font-weight: 700;
+}

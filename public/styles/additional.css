@@ -1,0 +1,13 @@
+/* additional.css */
+h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.highlight-winner {
+  background-color: #ffe082; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 200, 0, 0.5); 
+}

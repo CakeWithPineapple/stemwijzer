@@ -1,0 +1,41 @@
+.container,
+.party-positions-container {
+  width: clamp(300px, 85%, 800px);
+  background-color: #ffffff;
+  padding: clamp(20px, 5vw, 40px);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin: clamp(10px, 3vw, 30px) auto;
+  margin-top: 270px;
+}
+
+.container {
+  text-align: center;
+}
+
+.party-positions-container {
+  margin-top: clamp(15px, 2.5vw, 30px);
+}
+
+.party-positions-container h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #bbdefb;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.header {
+  position: fixed; /* Altijd bovenaan het scherm */
+  top: 0;
+  left: 0;
+  width: 100%; /* Zorg dat hij de volledige breedte van het scherm beslaat */
+  display: flex;
+  justify-content: flex-end; /* Plaats de taal-selector rechts */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Nette achtergrondkleur */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtiele schaduw */
+  z-index: 100; /* Zorg dat hij boven de rest van de content staat */
+}

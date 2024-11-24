@@ -1,0 +1,99 @@
+/* Basisreset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Inter", Arial, sans-serif; /* Geef jezelf een modern font, fallback inbegrepen */
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+background-size: cover; /* Zorg dat de achtergrond de hele viewport vult */
+  background-repeat: no-repeat; /* Herhaal de achtergrond NIET */
+  background-attachment: fixed;
+  color: #333;
+  line-height: 1.6; /* Lekker leesbaar */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Zorgt dat alles wat ademruimte heeft */
+  padding: 20px;
+}
+
+/* Typografie */
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem); /* Dynamische grootte die meegroeit */
+  color: #333;
+  margin-bottom: 1rem; /* Gebruik rem's voor consistente spacing */
+  text-align: center; /* Voor een mooie header-align */
+}
+
+p,
+.progress-text {
+  font-size: clamp(0.9rem, 2.5vw, 1rem); /* Dynamische tekstgrootte */
+  color: #666;
+  margin-top: 0.5rem;
+  text-align: center; /* Lijn consistent met h1 */
+}
+
+/* Links (je zult ze ooit nodig hebben) */
+a {
+  color: #1976d2; /* Mooie blauw tint */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0d47a1; /* Een donkerdere tint voor hover */
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 1.5rem; /* Wat ruimte aan de linkerkant */
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Knoppen (kan later uitbreid worden) */
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Een subtiele 'pop' */
+}
+
+/* Flexbox helpers */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Accessibility */
+.nav-button:focus,
+.option:focus {
+  outline: 2px solid #00f; /* Visuele focusindicator */
+}

@@ -1,0 +1,870 @@
+{
+  "vragen": {
+    "nl": [
+      "Moet TikTok worden gefilterd of beperkt om de veiligheid en privacy van burgers te waarborgen?",
+      "Moeten er strengere milieuregels komen om de natuur en het klimaat te beschermen?",
+      "Moet Hikeland strengere grensbewaking krijgen om dieven buiten te houden?",
+      "Moeten traditionele waarden en normen de kern vormen van het beleid in Hikeland?",
+      "Moet de overheid privacy en vrijheid van meningsuiting als hoogste prioriteit stellen?",
+      "Moet er een kapitalistische vrije markt worden bevorderd, zelfs als dit ten koste gaat van sociale gelijkheid?",
+      "Moet Hikeland technologie en innovatie als topprioriteit nemen?",
+      "Moet de overheid strengere regels opleggen aan bedrijven om werknemersbescherming en sociale gelijkheid te garanderen?",
+      "Moet er een progressief belastingstelsel zijn waarbij de rijken meer belasting betalen dan de armere burgers?",
+      "Moet er meer worden geïnvesteerd in openbaar vervoer en fietsinfrastructuur in plaats van autoverkeer?",
+      "Moet Hikeland zich internationaal opstellen en samenwerkingsverbanden aangaan met andere landen?",
+      "Moeten er beperkingen komen op buitenlandse bedrijven die zich in Hikeland willen vestigen?",
+      "Moet Hikeland zich richten op een circulaire economie om afval en vervuiling te verminderen?",
+      "Moet er een minimumbelasting komen voor grote bedrijven om belastingontwijking tegen te gaan?",
+      "Moet de overheid subsidies verstrekken aan duurzame energieprojecten zoals zonne- en windenergie?",
+      "Moet de overheid ingrijpen om de huren betaalbaar te houden voor alle inwoners?",
+      "Moet er meer controle komen op het gebruik van technologie door jongeren om overmatig gebruik en verslaving te voorkomen?",
+      "Moet Hikeland regionale overheden meer autonomie geven in hun beleid?",
+      "Moet de overheid gratis gezondheidszorg voor alle burgers garanderen?",
+      "Moeten er beperkingen komen op de verkoop van alcohol en tabak om de volksgezondheid te verbeteren?",
+      "Moet de overheid de productie van fossiele brandstoffen ontmoedigen en overstappen op hernieuwbare energie?",
+      "Moeten universiteiten en hogescholen gratis toegankelijk zijn voor alle burgers?",
+      "Moet er een verplichte militaire dienst komen voor Hikelandse burgers?",
+      "Moet Hikeland vluchtelingen opvangen die internationaal bescherming zoeken?",
+      "Moet de overheid strengere regels hanteren voor internetprivacy en het beschermen van persoonlijke gegevens?",
+      "Moet er meer belasting worden geheven op ongezonde producten zoals suikerhoudende dranken?",
+      "Moet Hikeland een eigen nationale digitale munt invoeren om de economie te ondersteunen?",
+      "Moet de overheid meer investeren in cultuur en erfgoed om Hikelandse tradities te behouden?",
+      "Moet er een verbod komen op privébezit van vuurwapens?",
+      "Moet de overheid maatregelen nemen om gendergelijkheid op de werkvloer te bevorderen?",
+      "Moet er een limiet worden gesteld aan het aantal auto's per huishouden in Hikeland?",
+      "Moet de overheid betaalde verlofdagen verplicht stellen voor ouderschapsverlof?",
+      "Moeten kleine ondernemingen belastingvoordelen krijgen om concurrentie met grotere bedrijven te ondersteunen?",
+      "Moet de overheid een basisinkomen voor alle Hikelandse burgers invoeren?"
+    ],
+    "uk": [
+      "Чи слід фільтрувати або обмежувати TikTok для забезпечення безпеки та конфіденційності громадян?",
+      "Чи потрібні суворіші екологічні правила для захисту природи та клімату?",
+      "Чи має Хікеланд посилити прикордонний контроль, щоб утримати злодіїв за межами?",
+      "Чи мають традиційні цінності та норми бути основою політики у Хікеланді?",
+      "Чи повинен уряд ставити конфіденційність і свободу слова як найвищий пріоритет?",
+      "Чи слід сприяти капіталістичному вільному ринку, навіть якщо це коштує соціальної рівності?",
+      "Чи має Хікеланд ставити технології та інновації у пріоритет?",
+      "Чи повинен уряд вводити суворіші правила для компаній, щоб гарантувати захист працівників і соціальну рівність?",
+      "Чи слід запровадити прогресивну податкову систему, де багатші платять більше податків, ніж бідніші громадяни?",
+      "Чи слід більше інвестувати в громадський транспорт і велосипедну інфраструктуру замість автомобільного руху?",
+      "Чи має Хікеланд міжнародно співпрацювати та встановлювати партнерства з іншими країнами?",
+      "Чи слід обмежити іноземні компанії, які хочуть працювати у Хікеланді?",
+      "Чи повинен Хікеланд зосередитися на круговій економіці для зменшення відходів і забруднення?",
+      "Чи слід запровадити мінімальний податок для великих компаній, щоб уникнути ухилення від сплати податків?",
+      "Чи має уряд надавати субсидії на проєкти відновлюваної енергетики, такі як сонячна та вітрова енергія?",
+      "Чи має уряд втручатися, щоб зробити оренду житла доступною для всіх мешканців?",
+      "Чи потрібно посилити контроль за використанням технологій серед молоді для запобігання надмірному використанню та залежності?",
+      "Чи повинен Хікеланд надати регіональним органам влади більше автономії у їхній політиці?",
+      "Чи повинен уряд гарантувати безкоштовну медичну допомогу для всіх громадян?",
+      "Чи слід обмежити продаж алкоголю та тютюну для покращення громадського здоров’я?",
+      "Чи має уряд зменшувати видобуток викопного палива і переходити на відновлювану енергію?",
+      "Чи мають університети та вищі навчальні заклади бути безкоштовними для всіх громадян?",
+      "Чи слід запровадити обов’язкову військову службу для громадян Хікеланду?",
+      "Чи повинен Хікеланд приймати біженців, які шукають міжнародного захисту?",
+      "Чи повинен уряд запроваджувати суворіші правила для захисту приватності в інтернеті?",
+      "Чи слід більше оподатковувати нездорові продукти, такі як солодкі напої?",
+      "Чи має Хікеланд запровадити власну національну цифрову валюту для підтримки економіки?",
+      "Чи повинен уряд більше інвестувати в культуру та спадщину, щоб зберегти традиції Хікеланду?",
+      "Чи слід заборонити приватне володіння вогнепальною зброєю?",
+      "Чи повинен уряд вживати заходів для забезпечення гендерної рівності на робочих місцях?",
+      "Чи слід обмежити кількість автомобілів на домогосподарство в Хікеланді?",
+      "Чи повинен уряд зобов'язати оплачувані відпустки для догляду за дітьми?",
+      "Чи повинні малі підприємства отримувати податкові пільги, щоб підтримувати конкуренцію з великими компаніями?",
+      "Чи повинен уряд запровадити базовий дохід для всіх громадян Хікеланду?"
+    ],
+    "fr": [
+      "Faut-il filtrer ou limiter TikTok pour garantir la sécurité et la confidentialité des citoyens?",
+      "Faut-il des règles environnementales plus strictes pour protéger la nature et le climat?",
+      "Hikeland doit-il renforcer le contrôle aux frontières pour empêcher les voleurs d'entrer?",
+      "Les valeurs et normes traditionnelles doivent-elles constituer le cœur de la politique de Hikeland?",
+      "Le gouvernement doit-il donner la priorité à la confidentialité et à la liberté d'expression?",
+      "Faut-il favoriser un marché libre capitaliste, même si cela se fait au détriment de l'égalité sociale?",
+      "Hikeland doit-il accorder la priorité à la technologie et à l'innovation?",
+      "Le gouvernement doit-il imposer des règles plus strictes aux entreprises pour garantir la protection des employés et l'égalité sociale?",
+      "Faut-il introduire un système fiscal progressif où les riches paient plus d'impôts que les citoyens moins aisés?",
+      "Faut-il investir davantage dans les transports publics et les infrastructures cyclables au lieu de la circulation automobile?",
+      "Hikeland doit-il adopter une approche internationale et établir des partenariats avec d'autres pays?",
+      "Faut-il limiter les entreprises étrangères qui souhaitent s'implanter à Hikeland?",
+      "Hikeland doit-il se concentrer sur une économie circulaire pour réduire les déchets et la pollution?",
+      "Faut-il introduire un impôt minimum pour les grandes entreprises afin de lutter contre l'évasion fiscale?",
+      "Le gouvernement doit-il subventionner des projets d'énergie renouvelable comme le solaire et l'éolien?",
+      "Le gouvernement doit-il intervenir pour rendre les loyers abordables pour tous les habitants?",
+      "Faut-il renforcer le contrôle sur l'utilisation de la technologie par les jeunes pour éviter une utilisation excessive et des dépendances?",
+      "Hikeland doit-il accorder plus d'autonomie aux gouvernements régionaux dans leurs politiques?",
+      "Le gouvernement doit-il garantir des soins de santé gratuits pour tous les citoyens?",
+      "Faut-il restreindre la vente d'alcool et de tabac pour améliorer la santé publique?",
+      "Le gouvernement doit-il décourager la production de combustibles fossiles et passer aux énergies renouvelables?",
+      "Les universités et les écoles supérieures doivent-elles être gratuites pour tous les citoyens?",
+      "Faut-il introduire un service militaire obligatoire pour les citoyens de Hikeland?",
+      "Hikeland doit-il accueillir des réfugiés cherchant une protection internationale?",
+      "Le gouvernement doit-il mettre en place des règles plus strictes pour protéger la confidentialité en ligne et les données personnelles?",
+      "Faut-il augmenter les taxes sur les produits malsains comme les boissons sucrées?",
+      "Hikeland doit-il introduire sa propre monnaie numérique nationale pour soutenir l'économie?",
+      "Le gouvernement doit-il investir davantage dans la culture et le patrimoine pour préserver les traditions de Hikeland?",
+      "Faut-il interdire la possession privée d'armes à feu?",
+      "Le gouvernement doit-il prendre des mesures pour promouvoir l'égalité des sexes sur le lieu de travail?",
+      "Faut-il limiter le nombre de voitures par foyer à Hikeland?",
+      "Le gouvernement doit-il imposer des congés payés obligatoires pour les congés parentaux?",
+      "Les petites entreprises devraient-elles bénéficier d'avantages fiscaux pour soutenir la concurrence avec les grandes entreprises?",
+      "Le gouvernement doit-il introduire un revenu de base pour tous les citoyens de Hikeland?"
+    ],
+    "de": [
+      "Soll TikTok gefiltert oder eingeschränkt werden, um die Sicherheit und Privatsphäre der Bürger zu gewährleisten?",
+      "Sollten strengere Umweltvorschriften eingeführt werden, um Natur und Klima zu schützen?",
+      "Soll Hikeland die Grenzkontrollen verschärfen, um Diebe fernzuhalten?",
+      "Sollten traditionelle Werte und Normen die Grundlage der Politik in Hikeland bilden?",
+      "Soll die Regierung Datenschutz und Meinungsfreiheit als höchste Priorität betrachten?",
+      "Soll ein kapitalistischer freier Markt gefördert werden, auch wenn dies auf Kosten sozialer Gleichheit geschieht?",
+      "Soll Hikeland Technologie und Innovation als oberste Priorität betrachten?",
+      "Soll die Regierung strengere Vorschriften für Unternehmen einführen, um Arbeitnehmerrechte und soziale Gleichheit zu gewährleisten?",
+      "Soll ein progressives Steuersystem eingeführt werden, bei dem Reiche mehr Steuern zahlen als ärmere Bürger?",
+      "Soll mehr in den öffentlichen Nahverkehr und die Fahrrad-Infrastruktur investiert werden anstatt in den Autoverkehr?",
+      "Soll Hikeland internationale Kooperationen eingehen und Partnerschaften mit anderen Ländern aufbauen?",
+      "Sollten ausländische Unternehmen, die sich in Hikeland niederlassen wollen, eingeschränkt werden?",
+      "Soll Hikeland sich auf eine Kreislaufwirtschaft konzentrieren, um Abfälle und Umweltverschmutzung zu reduzieren?",
+      "Soll eine Mindeststeuer für große Unternehmen eingeführt werden, um Steuervermeidung zu bekämpfen?",
+      "Soll die Regierung Projekte für erneuerbare Energien wie Solar- und Windenergie subventionieren?",
+      "Soll die Regierung eingreifen, um die Mieten für alle Einwohner erschwinglich zu machen?",
+      "Soll die Nutzung von Technologie durch Jugendliche stärker kontrolliert werden, um übermäßigen Gebrauch und Abhängigkeit zu verhindern?",
+      "Soll Hikeland den regionalen Regierungen mehr Autonomie in ihrer Politik gewähren?",
+      "Soll die Regierung kostenlose Gesundheitsversorgung für alle Bürger garantieren?",
+      "Soll der Verkauf von Alkohol und Tabak eingeschränkt werden, um die öffentliche Gesundheit zu verbessern?",
+      "Soll die Regierung die Produktion fossiler Brennstoffe reduzieren und auf erneuerbare Energien umsteigen?",
+      "Sollten Universitäten und Hochschulen für alle Bürger kostenlos zugänglich sein?",
+      "Soll ein verpflichtender Wehrdienst für die Bürger von Hikeland eingeführt werden?",
+      "Soll Hikeland Flüchtlinge aufnehmen, die internationalen Schutz suchen?",
+      "Soll die Regierung strengere Vorschriften zum Schutz der Online-Privatsphäre und persönlicher Daten einführen?",
+      "Sollten ungesunde Produkte wie zuckerhaltige Getränke stärker besteuert werden?",
+      "Soll Hikeland eine eigene nationale digitale Währung einführen, um die Wirtschaft zu unterstützen?",
+      "Soll die Regierung mehr in Kultur und Erbe investieren, um die Traditionen von Hikeland zu bewahren?",
+      "Soll der private Besitz von Schusswaffen verboten werden?",
+      "Soll die Regierung Maßnahmen ergreifen, um die Gleichstellung der Geschlechter am Arbeitsplatz zu fördern?",
+      "Soll die Anzahl der Autos pro Haushalt in Hikeland begrenzt werden?",
+      "Soll die Regierung bezahlte Elternzeit verpflichtend machen?",
+      "Sollten kleine Unternehmen steuerliche Vorteile erhalten, um den Wettbewerb mit größeren Unternehmen zu unterstützen?",
+      "Soll die Regierung ein Grundeinkommen für alle Bürger von Hikeland einführen?"
+    ],
+    "en-US": [],
+    "en-UK": []
+  },
+  "partijen": [
+    {
+      "id": "HSCP",
+      "naam": "Hikelandse Sociaal-Communistische Partij (HSCP)",
+      "standpunten": [
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens"
+      ]
+    },
+    {
+      "id": "EL",
+      "naam": "EcoLinks",
+      "standpunten": [
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens"
+      ]
+    },
+    {
+      "id": "GVH",
+      "naam": "Groen Verbond Hikeland (GVH)",
+      "standpunten": [
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens"
+      ]
+    },
+    {
+      "id": "CJ",
+      "naam": "CoalitieJustitie",
+      "standpunten": [
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens"
+      ]
+    },
+    {
+      "id": "HV",
+      "naam": "Hikeland Vooruit!",
+      "standpunten": [
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "Lib",
+      "naam": "Liberté",
+      "standpunten": [
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "PSCH",
+      "naam": "Partij voor een Sociaal-Conservatief Hikeland (PSCH)",
+      "standpunten": [
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "PVT",
+      "naam": "Partij voor de Tradities (PVT)",
+      "standpunten": [
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "KP",
+      "naam": "Kapitalistische Partij",
+      "standpunten": [
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "HB",
+      "naam": "Hikelands Belang",
+      "standpunten": [
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens"
+      ]
+    },
+    {
+      "id": "RattenTeFiets",
+      "naam": "RattenTeFiets!",
+      "standpunten": []
+    },
+    {
+      "id": "Staartslagers",
+      "naam": "Staartslagers",
+      "standpunten": []
+    },
+    {
+      "id": "NB",
+      "naam": "Nieuwe Balans",
+      "standpunten": [
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "oneens",
+        "eens",
+        "eens",
+        "eens",
+        "oneens",
+        "eens",
+        "eens"
+      ]
+    }
+  ],
+  "extra_vragen": {
+    "coalitie_vragen": [
+      {
+        "vraag": "Moet Hikeland vluchtelingen opvangen die internationaal bescherming zoeken?",
+        "vraag_uk": "Чи повинен Хікеланд приймати біженців, які шукають міжнародного захисту?",
+        "standpunten": {
+          "RattenTeFiets": "oneens",
+          "Staartslagers": "eens"
+        }
+      },
+      {
+        "vraag": "Moet er een limiet worden gesteld aan het aantal auto's per huishouden in Hikeland?",
+        "vraag_uk": "Чи слід обмежити кількість автомобілів на домогосподарство в Хікеланді?",
+        "standpunten": {
+          "RattenTeFiets": "oneens",
+          "Staartslagers": "eens"
+        }
+      },
+      {
+        "vraag": "Moet de overheid de privacywetgeving verder aanscherpen om burgers beter te beschermen?",
+        "vraag_uk": "Чи повинен уряд посилити законодавство про конфіденційність для кращого захисту громадян?",
+        "standpunten": {
+          "RattenTeFiets": "eens",
+          "Staartslagers": "oneens"
+        }
+      },
+      {
+        "vraag": "Moet de overheid strengere controle uitvoeren op technologiebedrijven om de privacy van burgers te waarborgen?",
+        "vraag_uk": "Чи повинен уряд посилити контроль над технологічними компаніями, щоб забезпечити конфіденційність громадян?",
+        "standpunten": {
+          "RattenTeFiets": "eens",
+          "Staartslagers": "oneens"
+        }
+      },
+      {
+        "vraag": "Moet de overheid extra maatregelen treffen om ecologische overtredingen strenger te bestraffen?",
+        "vraag_uk": "Чи повинен уряд вживати додаткових заходів для суворішого покарання за екологічні порушення?",
+        "standpunten": {
+          "RattenTeFiets": "oneens",
+          "Staartslagers": "eens"
+        }
+      }
+    ],
+    "gelijkspel_vragen": {
+      "HSCP_EL": [
+        {
+          "vraag": "Moet de overheid actieve herverdeling van rijkdommen bevorderen om sociale gelijkheid te vergroten?",
+          "standpunten": {
+            "HSCP": "eens",
+            "EL": "oneens"
+          }
+        },
+        {
+          "vraag": "Moeten strikte maatregelen worden genomen om industriële vervuiling te beperken, zelfs als dat banen kan kosten?",
+          "standpunten": {
+            "HSCP": "oneens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moet het onderwijs volledig gratis worden voor iedereen, inclusief universiteiten?",
+          "standpunten": {
+            "HSCP": "eens",
+            "EL": "oneens"
+          }
+        },
+        {
+          "vraag": "Moeten bedrijven verplicht worden om milieuvriendelijke technologieën te gebruiken?",
+          "standpunten": {
+            "HSCP": "oneens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moet er een verbod komen op energie-intensieve industrieën om ecologische schade te beperken?",
+          "standpunten": {
+            "HSCP": "oneens",
+            "EL": "eens"
+          }
+        }
+      ],
+      "KP_HB": [
+        {
+          "vraag": "Moet de overheid zo min mogelijk inmenging hebben in het bedrijfsleven?",
+          "standpunten": {
+            "KP": "eens",
+            "HB": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid belastingvoordelen geven aan grote bedrijven?",
+          "standpunten": {
+            "KP": "eens",
+            "HB": "oneens"
+          }
+        },
+        {
+          "vraag": "Moeten bedrijven de vrijheid hebben om werknemerscontracten flexibel te maken?",
+          "standpunten": {
+            "KP": "eens",
+            "HB": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid eigendomsrechten volledig beschermen zonder tussenkomst?",
+          "standpunten": {
+            "KP": "eens",
+            "HB": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet er volledige vrijheid zijn voor internationale handel, zonder beperkingen?",
+          "standpunten": {
+            "KP": "eens",
+            "HB": "oneens"
+          }
+        }
+      ],
+      "GVH_EL": [
+        {
+          "vraag": "Moet er een belasting komen op vervuilende producten zoals plastic?",
+          "standpunten": {
+            "GVH": "eens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moet Hikeland zichzelf verplichten tot een koolstofneutrale economie tegen 2040?",
+          "standpunten": {
+            "GVH": "eens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moeten er subsidies worden verstrekt aan burgers die hun huizen verduurzamen?",
+          "standpunten": {
+            "GVH": "eens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moet er een maximale energielimiet per huishouden worden ingesteld om verspilling tegen te gaan?",
+          "standpunten": {
+            "GVH": "oneens",
+            "EL": "eens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid reguleren hoeveel water elk huishouden mag verbruiken?",
+          "standpunten": {
+            "GVH": "oneens",
+            "EL": "eens"
+          }
+        }
+      ],
+      "Lib_HV": [
+        {
+          "vraag": "Moet Hikeland een volledig vrije markt nastreven zonder regulering?",
+          "standpunten": {
+            "Lib": "eens",
+            "HV": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid het gebruik van technologie door burgers helemaal vrijlaten?",
+          "standpunten": {
+            "Lib": "eens",
+            "HV": "oneens"
+          }
+        },
+        {
+          "vraag": "Moeten internationale bedrijven zonder beperking toegang krijgen tot Hikeland?",
+          "standpunten": {
+            "Lib": "eens",
+            "HV": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet vrijheid van meningsuiting vooropstaan zonder overheidsbemoeienis?",
+          "standpunten": {
+            "Lib": "eens",
+            "HV": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid zich terughoudend opstellen in alle aspecten van het leven van burgers?",
+          "standpunten": {
+            "Lib": "eens",
+            "HV": "oneens"
+          }
+        }
+      ],
+      "PSCH_PVT": [
+        {
+          "vraag": "Moeten traditionele gezinswaarden beschermd worden door de overheid?",
+          "standpunten": {
+            "PSCH": "eens",
+            "PVT": "eens"
+          }
+        },
+        {
+          "vraag": "Moeten Hikelandse culturele tradities behouden blijven in het onderwijs?",
+          "standpunten": {
+            "PSCH": "eens",
+            "PVT": "eens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid religieuze waarden in het beleid meenemen?",
+          "standpunten": {
+            "PSCH": "oneens",
+            "PVT": "eens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid kunst en cultuur subsidiëren om lokale tradities te versterken?",
+          "standpunten": {
+            "PSCH": "eens",
+            "PVT": "eens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid actief zorgen voor de sociale cohesie binnen traditionele gemeenschappen?",
+          "standpunten": {
+            "PSCH": "eens",
+            "PVT": "eens"
+          }
+        }
+      ],
+      "CJ_RT_St": [
+        {
+          "vraag": "Moet de overheid strenge controles uitvoeren op grensoverschrijdend dataverkeer?",
+          "standpunten": {
+            "RattenTeFiets": "eens",
+            "Staartslagers": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de bescherming van het dierenwelzijn de hoogste prioriteit krijgen binnen de CoalitieJustitie?",
+          "standpunten": {
+            "Staartslagers": "eens",
+            "RattenTeFiets": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet het internetverkeer volledig vrij zijn zonder inmenging van de overheid?",
+          "standpunten": {
+            "RattenTeFiets": "eens",
+            "Staartslagers": "oneens"
+          }
+        },
+        {
+          "vraag": "Moeten alleen Hikelandse bedrijven toegang krijgen tot gevoelige informatie van Hikelanders?",
+          "standpunten": {
+            "RattenTeFiets": "eens",
+            "Staartslagers": "oneens"
+          }
+        },
+        {
+          "vraag": "Moet de overheid datatransparantie handhaven voor alle publieke instellingen?",
+          "standpunten": {
+            "RattenTeFiets": "eens",
+            "Staartslagers": "oneens"
+          }
+        }
+      ]
+    }
+  }
+}

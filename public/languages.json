@@ -1,0 +1,140 @@
+{
+  "nl": {
+    "title": "Hikeland Stemwijzer - Vragen",
+    "progress_text": "Vraag {current} van {total}",
+    "importance_prompt": "Geef aan hoe belangrijk deze vraag voor je is:",
+    "importance_levels": ["Normaal", "Belangrijk", "Zeer belangrijk"],
+    "options": ["Eens", "Neutraal", "Oneens"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Extra vragen om een keuze te maken binnen de {coalitie}.",
+    "result": "De partij die het beste bij jou past is: {partij}",
+    "tie_result": "Er is een gelijkspel tussen {partijen}.",
+    "party_positions_heading": "Wat vinden de partijen",
+    "agree_label": "Eens:",
+    "disagree_label": "Oneens:",
+    "language_selector_label": "Taal: ",
+    "languages": {
+      "nl": "Nederlands",
+      "uk": "Oekraïens",
+      "fr": "Français",
+      "de": "Deutsch",
+      "en-US": "English (US)",
+      "en-UK": "English (UK)"
+    }
+  },
+  "uk": {
+    "title": "Хікеландський Посібник з Голосування - Питання",
+    "progress_text": "Питання {current} з {total}",
+    "importance_prompt": "Вкажіть, наскільки важливе це питання для вас:",
+    "importance_levels": ["Звичайне", "Важливе", "Дуже важливе"],
+    "options": ["Згоден", "Нейтрально", "Не згоден"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Додаткові питання для вибору в межах {coalitie}.",
+    "result": "Партія, яка вам найкраще підходить: {partij}",
+    "tie_result": "Відбулося рівняння між {partijen}.",
+    "party_positions_heading": "Думки партій",
+    "agree_label": "Згодні:",
+    "disagree_label": "Не згодні:",
+    "language_selector_label": "Мова: ",
+    "languages": {
+      "nl": "Нідерландська",
+      "uk": "Українська",
+      "fr": "Французька",
+      "de": "Німецька",
+      "en-US": "Англійська (США)",
+      "en-UK": "Англійська (Великобританія)"
+    }
+  },
+  "fr": {
+    "title": "Hikeland Guide de Vote - Questions",
+    "progress_text": "Question {current} sur {total}",
+    "importance_prompt": "Indiquez l'importance de cette question pour vous :",
+    "importance_levels": ["Normal", "Important", "Très important"],
+    "options": ["D'accord", "Neutre", "Pas d'accord"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Questions supplémentaires pour faire un choix au sein de {coalitie}.",
+    "result": "Le parti qui vous correspond le mieux est : {partij}",
+    "tie_result": "Il y a une égalité entre {partijen}.",
+    "party_positions_heading": "Ce que les partis pensent",
+    "agree_label": "D'accord :",
+    "disagree_label": "Pas d'accord :",
+    "language_selector_label": "Langue : ",
+    "languages": {
+      "nl": "Néerlandais",
+      "uk": "Ukrainien",
+      "fr": "Français",
+      "de": "Allemand",
+      "en-US": "Anglais (US)",
+      "en-UK": "Anglais (UK)"
+    }
+  },
+  "de": {
+    "title": "Hikeland Wahlhilfe - Fragen",
+    "progress_text": "Frage {current} von {total}",
+    "importance_prompt": "Geben Sie an, wie wichtig diese Frage für Sie ist:",
+    "importance_levels": ["Normal", "Wichtig", "Sehr wichtig"],
+    "options": ["Stimme zu", "Neutral", "Stimme nicht zu"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Zusätzliche Fragen, um eine Entscheidung innerhalb von {coalitie} zu treffen.",
+    "result": "Die Partei, die am besten zu Ihnen passt, ist: {partij}",
+    "tie_result": "Es gibt ein Unentschieden zwischen {partijen}.",
+    "party_positions_heading": "Was die Parteien denken",
+    "agree_label": "Stimmen zu:",
+    "disagree_label": "Stimmen nicht zu:",
+    "language_selector_label": "Sprache: ",
+    "languages": {
+      "nl": "Niederländisch",
+      "uk": "Ukrainisch",
+      "fr": "Französisch",
+      "de": "Deutsch",
+      "en-US": "Englisch (US)",
+      "en-UK": "Englisch (UK)"
+    }
+  },
+  "en-US": {
+    "title": "Hikeland Voting Guide - Questions",
+    "progress_text": "Question {current} of {total}",
+    "importance_prompt": "Please indicate how important this question is to you:",
+    "importance_levels": ["Normal", "Important", "Very Important"],
+    "options": ["Agree", "Neutral", "Disagree"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Additional questions to make a choice within {coalitie}.",
+    "result": "The party that best suits you is: {partij}",
+    "tie_result": "There is a tie between {partijen}.",
+    "party_positions_heading": "What the parties think",
+    "agree_label": "Agree:",
+    "disagree_label": "Disagree:",
+    "language_selector_label": "Language: ",
+    "languages": {
+      "nl": "Dutch",
+      "uk": "Ukrainian",
+      "fr": "French",
+      "de": "German",
+      "en-US": "English (US)",
+      "en-UK": "English (UK)"
+    }
+  },
+  "en-UK": {
+    "title": "Hikeland Voting Guide - Questions",
+    "progress_text": "Question {current} of {total}",
+    "importance_prompt": "Please indicate how important this question is to you:",
+    "importance_levels": ["Normal", "Important", "Very Important"],
+    "options": ["Agree", "Neutral", "Disagree"],
+    "navigation": ["<", ">"],
+    "extra_question_intro": "Additional questions to make a choice within {coalitie}.",
+    "result": "The party that best suits you is: {partij}",
+    "tie_result": "There is a tie between {partijen}.",
+    "party_positions_heading": "What the parties think",
+    "agree_label": "Agree:",
+    "disagree_label": "Disagree:",
+    "language_selector_label": "Language: ",
+    "languages": {
+      "nl": "Dutch",
+      "uk": "Ukrainian",
+      "fr": "French",
+      "de": "German",
+      "en-US": "English (US)",
+      "en-UK": "English (UK)"
+    }
+  }
+}

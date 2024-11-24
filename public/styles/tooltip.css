@@ -1,0 +1,70 @@
+.term {
+  position: relative;
+  color: #0056b3; /* Donkerder blauw voor betere zichtbaarheid */
+  font-weight: bold; /* Laat het meer opvallen */
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(0, 86, 179, 0.1); /* Lichtblauwe achtergrond voor duidelijkheid */
+  padding: 2px 4px; /* Maak het iets blokvormiger */
+  border-radius: 4px; /* Zachte hoeken voor een moderne uitstraling */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.term:hover,
+.term:focus {
+  color: #003d80; /* Nog donkerder blauw bij hover */
+  background-color: rgba(0, 86, 179, 0.2); /* Iets sterkere achtergrondkleur */
+  border-bottom: 2px solid #003d80; /* Subtiele visuele aanwijzing */
+}
+
+.tooltip-icon {
+  font-style: normal;
+  color: #0056b3; /* Match met de term-kleur */
+  font-size: 0.85em; /* Iets kleiner voor balans */
+  margin-left: 2px;
+  vertical-align: middle; /* Zorg dat het icoontje goed uitlijnt met de tekst */
+  transition: color 0.3s ease;
+}
+
+.term:hover .tooltip-icon {
+  color: #003d80; /* Donkerder icoontje bij hover */
+}
+
+.term .tooltip {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, -100%) scale(0.95);
+  background: #2c2c2c; /* Donkergrijs voor goed contrast */
+  color: #ffffff; /* Heldere witte tekst */
+  max-width: 300px;
+  min-width: 150px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+  white-space: normal;
+}
+
+.term .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #2c2c2c transparent transparent transparent;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.term:hover .tooltip,
+.term:focus .tooltip {
+  opacity: 1;
+  transform: translate(-50%, -110%) scale(1);
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hikeland Stemwijzer</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        text-align: center;
+      }
+      .a {
+        max-width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .b {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      .c {
+        padding: 20px 40px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .c:hover {
+        background-color: #0056b3;
+      }
+      .d {
+        font-size: 14px;
+        color: #555;
+        margin-top: 15px;
+        line-height: 1.4;
+      }
+      .e {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      .e:hover {
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <div class="b">
+        <h1>Welkom bij de Hikeland Stemwijzer!</h1>
+        <p>
+          Twijfel je op welke partij je moet stemmen? Doe de Hikeland
+          Stemwijzer! Na het doen van de stemwijzer weet je zeker op welke
+          partij je moet gaan stemmen.
+        </p>
+      </div>
+      <button class="c" onclick="a()">Start de Stemwijzer</button>
+      <div class="d">
+        <p>
+          Twijfel je over de privacy?<a href="/privacy.html" class="e">
+            Lees ons privacy statement</a
+          >.
+        </p>
+      </div>
+    </div>
+    <script>
+      function a() {
+        window.location.href = "/vragen.html";
+      }
+    </script>
+  </body>
+</html>

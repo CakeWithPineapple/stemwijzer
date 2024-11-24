@@ -1,0 +1,25 @@
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Beter dan margins voor consistentie */
+  margin-top: 25px;
+}
+
+.option {
+  flex: 1;
+  padding: clamp(10px, 1.5vw, 20px);
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+}
+
+.option:hover {
+  background: linear-gradient(135deg, #1e88e5, #1565c0);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
